@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: atcp
+Version: 0.1.0
+Requires-Dist: pytest
+Requires-Dist: pytest-asyncio
+Requires-Dist: pytest-cov
+Requires-Dist: asyncio
+Requires-Dist: logging
