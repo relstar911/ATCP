@@ -1,0 +1,19 @@
+{
+    "network": {
+        "max_peers": 50,
+        "min_peers": 10,
+        "connection_timeout": 30,
+        "retry_interval": 5,
+        "bandwidth_limit": "100Mbps"
+    },
+    "security": {
+        "encryption": "TLS_1_3",
+        "auth_required": true,
+        "rate_limit": 1000
+    },
+    "edge": {
+        "min_cpu_cores": 4,
+        "min_ram_gb": 16,
+        "min_storage_gb": 256
+    }
+}
